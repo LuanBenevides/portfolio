@@ -1,0 +1,55 @@
+.space-top {
+    background-color: #222222;
+}
+.header-block {
+    display: flex;
+    max-width: 80%;
+    height: 60px;
+    margin: 0px auto;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.header-block span{
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    color: #fff;
+    transition: .6s;
+}
+.header-block span:hover {
+    text-decoration: underline #e1ad01;
+    font-size: 20px;
+}
+
+.header-block nav a{
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+    transition: .6s;
+}
+
+.header-block nav a:hover {
+    text-decoration: underline #e1ad01;
+    font-size: 20px;
+}
+
+@media(max-width: 600px){
+    
+    .header-block span{
+        font-size: 12px;
+    }
+    .header-block span:hover{
+        font-size: 14px;
+    }
+    .header-block nav a{
+        font-size: 12px;
+    }
+    .header-block nav a:hover{
+        font-size: 14px;
+    }
+}

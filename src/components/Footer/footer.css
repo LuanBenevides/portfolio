@@ -1,0 +1,76 @@
+.footer-space{
+    background-color: #101010;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    width: 90%;
+    margin: 0px auto;
+}
+.footer-space h3{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+}
+.board-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 200px;
+    background-color: #101010;
+    
+}
+
+.pattern-card {
+    margin: 10px;
+    width: 128px;
+    height: 128px;
+    background-color: #222222;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 1s;
+}
+.pattern-card:hover{
+    border: solid 1px #e1ad01;
+}
+
+.html-card {
+    background-image: url('../../../public/images/html.png');
+}
+.css-card {
+    background-image: url('../../../public/images/css-3.png');
+}
+.js-card {
+    background-image: url('../../../public/images/js.png');
+}
+.react-card {
+    background-image: url('../../../public/images/physics.png');
+}
+.spring-card {
+    background-image: url('../../../public/images/icons8-spring-boot-96.png');
+}
+.java-card {
+    background-image: url('../../../public/images/java.png');
+}
+.postgre-card {
+    background-image: url('../../../public/images/postgre.png');
+}
+.mysql-card {
+    background-image: url('../../../public/images/mysql.png');
+}
+.git-card {
+    background-image: url('../../../public/images/git.png');
+}
+
+@media(max-width: 600px) {
+    .footer-space {
+        width: 90%;
+    }
+    .board-card {
+        width: 100%;
+        margin: 0px auto;
+    }
+}

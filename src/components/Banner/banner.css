@@ -1,0 +1,81 @@
+.banner-main {
+    background-color: #181818;
+    color: #fff;
+    padding: 80px;
+    margin: 0px;
+}
+.banner-myName{
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+}
+.banner-myName p{
+    font-size: 24px;
+    font-weight: 400;
+    margin: 10px;
+}
+.banner-line{
+    display:block; 
+    padding:0; 
+    margin: 0; 
+    width: 200px; 
+    height: 4px; 
+    background-color: #e1ad01; 
+}
+
+.banner-main-tittle {
+    margin-left: 210px;
+}
+
+.banner-main-tittle h1 {
+    font-size: 38px;
+}
+.banner-main-tittle span{
+    color: #e1ad01;
+}
+
+.social-media-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 200px;
+}
+.linkedin-image-icon {
+    margin: 10px;
+    width: 32px;
+    height: 32px;
+    background-image: url('../../../public/images/linkedin.png');
+    cursor: pointer;
+}
+.github-image-icon {
+    margin: 10px;
+    width: 32px;
+    height: 32px;
+    background-image: url('../../../public/images/github.png');
+    cursor: pointer;
+}
+
+@media(max-width: 600px) {
+    .banner-main {
+        padding: 40px;
+    }
+    .banner-myName{
+        max-width: 300px;
+    }
+
+    .banner-myName p{
+        font-size: 18px;
+    }
+
+    .banner-line{
+        width: 100px;
+    }
+
+    .banner-main-tittle {
+        margin: 0px;
+        font-size: 16px;
+    }
+    .banner-main-tittle h1{
+        font-size: 26px;
+    }
+}

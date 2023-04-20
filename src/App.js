@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import Banner from "./components/Banner/Banner";
+import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
+import Projetos from "./components/Projetos/Projetos";
+
+function CenterApp( {emExibicao}) {
+  
+  if(emExibicao == 'banner') {
+    return <Banner />
+  }else if(emExibicao == 'projetos') {
+    return <Projetos /> 
+  }
+}
 
 function App() {
+  const [emExibicao, setEmExibicao] = useState('projetos');
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header setEmExibicao={setEmExibicao} emExibicao={emExibicao}/>
+      <CenterApp emExibicao={emExibicao}/>
+      <Footer />
     </div>
   );
 }

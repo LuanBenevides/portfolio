@@ -1,0 +1,88 @@
+
+.pattern-projects{
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pattern-projects h3 {
+    font-weight: 400;
+}
+.projects-board {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.pattern-card-tec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #222222;
+    border-radius: 7px;
+    color: #fff;
+    cursor: pointer;
+    transition: 1s;
+}
+.pattern-card-tec:hover {
+    border: solid 1px #e1ad01;
+}
+.pattern-card-tec h3 {
+    margin: 0px;
+    padding: 0px;
+    font-weight: 400;
+}
+.pattern-card-tec a{
+    text-decoration: underline #e1ad01;
+    color: #fff;
+}
+.image-block-pattern {
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    border: solid 1px #181818;
+    border-radius: 7px;
+}
+.jv {
+    background-image: url("../../../public/images/jogo-da-velha.png");
+}
+.bds {
+    background-image: url("../../../public/images/biscoito-da-sorte.png");
+}
+.cron {
+    background-image: url("../../../public/images/cronometro.png");
+}
+.calc{
+    background-image: url("../../../public/images/calculadora.png");
+}
+
+.task{
+    background-image: url("../../../public/images/lista-de-tarefass.png");
+}
+.df{
+    background-image: url("../../../public/images/dev-flix.png");
+}
+.pkdex{
+    background-image: url("../../../public/images/pkdex.png");
+}
+
+.ocult {
+    display: none;
+}
+
+@media(max-width: 900px) {
+    h3 {
+        font-size: 14px;
+    }
+    .projects-board {
+        flex-direction: column;
+    }
+}
