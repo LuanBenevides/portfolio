@@ -14,7 +14,7 @@ function CenterApp( {emExibicao}) {
 }
 
 function App() {
-  const [emExibicao, setEmExibicao] = useState('projetos');
+  const [emExibicao, setEmExibicao] = useState('banner');
 
   return (
     <div>

@@ -24,7 +24,7 @@ function Simple() {
                 </section>
                 <section className='pattern-card-tec'>
                     <h3>CALCULADORA</h3>
-                    <p>Faça contas na web, <a href="https://luanbenevides.github.io/react-calculator/">teste!</a></p>
+                    <p>Faça contas na web, <a href="https://luanbenevides.github.io/react-calculator/" target='blank'>teste!</a></p>
                     <div className='image-block-pattern calc'></div>
                 </section>
             </article>
