@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/portifolio/static/css/main.24af3225.css",
-    "main.js": "/portifolio/static/js/main.454a4cee.js",
+    "main.css": "/portifolio/static/css/main.90d2d14e.css",
+    "main.js": "/portifolio/static/js/main.3832ae82.js",
     "static/media/dev-flix.png": "/portifolio/static/media/dev-flix.a2b73818d318c4aa73a1.png",
+    "static/media/my-profile.png": "/portifolio/static/media/my-profile.40110bb2a205d5253adc.png",
     "static/media/pkdex.png": "/portifolio/static/media/pkdex.3e1b664d396b4267ea4a.png",
     "static/media/calculadora.png": "/portifolio/static/media/calculadora.aef879daa9a18e4430af.png",
     "static/media/biscoito-da-sorte.png": "/portifolio/static/media/biscoito-da-sorte.9a36c2e0a64346df8f89.png",
@@ -11,11 +12,11 @@
     "static/media/jogo-da-velha.png": "/portifolio/static/media/jogo-da-velha.cc2a56067f0277726a5c.png",
     "static/media/postgre.png": "/portifolio/static/media/postgre.2e675658cedda3e07b93.png",
     "index.html": "/portifolio/index.html",
-    "main.24af3225.css.map": "/portifolio/static/css/main.24af3225.css.map",
-    "main.454a4cee.js.map": "/portifolio/static/js/main.454a4cee.js.map"
+    "main.90d2d14e.css.map": "/portifolio/static/css/main.90d2d14e.css.map",
+    "main.3832ae82.js.map": "/portifolio/static/js/main.3832ae82.js.map"
   },
   "entrypoints": [
-    "static/css/main.24af3225.css",
-    "static/js/main.454a4cee.js"
+    "static/css/main.90d2d14e.css",
+    "static/js/main.3832ae82.js"
   ]
 }
