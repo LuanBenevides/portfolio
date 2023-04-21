@@ -4,6 +4,9 @@ import JvProjeto from '../JvProjeto/JvProjeto';
 import Bds from '../Bds/Bds';
 import Cronometro from '../Cronometro/Cronometro';
 import Calculadora from '../Calculadora/Calculadora';
+import DevFlix from '../DevFlix/DevFlix';
+import Tarefas from '../Tarefas/Tarefas';
+import PokeDex from '../PokeDex/PokeDex';
 
 function Simple() {
     return(
@@ -24,27 +27,9 @@ function Advanced() {
         <div className='pattern-projects'>
             <h3>PROJETOS COMPLETOS, UTILIZANDO CONCEITOS AVANÇADOS DE REACT.JS</h3>
             <article className='projects-board'>
-                <a href="https://lb-app-tarefas.netlify.app/" target='blank'>
-                    <section className='pattern-card-tec' onClick={() => {}}>
-                        <h3>LISTA DE TAREFAS</h3>
-                        <p>Gerencie as suas atividades aqui</p>
-                        <div className='image-block-pattern task'></div>
-                    </section>
-                </a>
-                <a href="https://lb-devflix.netlify.app/" target='blank'>
-                    <section className='pattern-card-tec'>
-                        <h3>DEVFLIX</h3>
-                        <p>Filmes em cartaz em tempo real</p>
-                        <div className='image-block-pattern df'></div>
-                    </section>
-                </a>
-                <a href='https://luanbenevides.github.io/pokedex/' target='blank'>
-                    <section className='pattern-card-tec'>
-                        <h3>POKEDEX</h3>
-                        <p>Divirta-se com seu pokemon favorito</p>
-                        <div className='image-block-pattern pkdex'></div>
-                    </section>
-                </a>
+                <PokeDex />
+                <DevFlix />
+                <Tarefas />
             </article>
         </div>
     );

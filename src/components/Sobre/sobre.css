@@ -1,0 +1,39 @@
+
+.sobre {
+    width: 80%;
+    padding: 20px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+.sobre h2{
+    font-weight: 400;
+}
+.sobre p{
+    font-size: 14px;
+}
+.my-profile-group {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.my-profile {
+    width: 264px;
+    height: 264px;
+    background-image: url('../../../public/images/my-profile.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: solid 1px #fff;
+    border-radius: 128px;
+}
+
+@media(max-width: 800px) {
+    .my-profile-group {
+        flex-direction: column-reverse;
+    }
+}

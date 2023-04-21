@@ -8,7 +8,7 @@ export default function Header({setEmExibicao}) {
 
                 <nav>
                     <a emExibicao={'projetos'} onClick={() => setEmExibicao('projetos')}>PROJETOS</a>
-                    <a emExibicao={'banner'} onClick={() => setEmExibicao('x')}>SOBRE MIM</a>
+                    <a emExibicao={'banner'} onClick={() => setEmExibicao('sobre')}>SOBRE MIM</a>
                     <a emExibicao={'contatos'} onClick={() => setEmExibicao('contatos')}>CONTATOS</a>
                 </nav>
             </header>

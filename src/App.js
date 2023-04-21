@@ -3,6 +3,7 @@ import Banner from "./components/Banner/Banner";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Projetos from "./components/Projetos/Projetos";
+import Sobre from "./components/Sobre/Sobre";
 
 function CenterApp( {emExibicao}) {
   
@@ -10,6 +11,8 @@ function CenterApp( {emExibicao}) {
     return <Banner />
   }else if(emExibicao == 'projetos') {
     return <Projetos /> 
+  }else if(emExibicao == 'sobre') {
+    return <Sobre />
   }
 }
 
