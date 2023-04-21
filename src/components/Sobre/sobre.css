@@ -11,6 +11,7 @@
 }
 .sobre h2{
     font-weight: 400;
+    color: #e1ad01;
 }
 .sobre p{
     font-size: 14px;
@@ -28,7 +29,7 @@
     background-image: url('../../../public/images/my-profile.png');
     background-repeat: no-repeat;
     background-size: 100%;
-    border: solid 1px #fff;
+    border: solid 1px #e1ad01;
     border-radius: 128px;
 }
 

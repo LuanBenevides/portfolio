@@ -4,15 +4,18 @@ import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Projetos from "./components/Projetos/Projetos";
 import Sobre from "./components/Sobre/Sobre";
+import Contatos from "./components/Contatos/Contatos";
 
 function CenterApp( {emExibicao}) {
   
-  if(emExibicao == 'banner') {
+  if(emExibicao === 'banner') {
     return <Banner />
-  }else if(emExibicao == 'projetos') {
+  }else if(emExibicao === 'projetos') {
     return <Projetos /> 
-  }else if(emExibicao == 'sobre') {
+  }else if(emExibicao === 'sobre') {
     return <Sobre />
+  }else if(emExibicao === 'contatos'){
+    return <Contatos />
   }
 }
 
