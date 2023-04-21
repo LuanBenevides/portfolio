@@ -20,7 +20,6 @@
 }
 .header-block span:hover {
     text-decoration: underline #e1ad01;
-    font-size: 20px;
 }
 
 .header-block nav a{
@@ -35,7 +34,6 @@
 
 .header-block nav a:hover {
     text-decoration: underline #e1ad01;
-    font-size: 20px;
 }
 
 @media(max-width: 600px){

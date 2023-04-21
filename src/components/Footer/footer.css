@@ -10,6 +10,7 @@
     color: #fff;
     font-size: 22px;
     font-weight: 400;
+    margin-bottom: 0px;
 }
 .board-card {
     display: flex;
@@ -20,18 +21,23 @@
     background-color: #101010;
     
 }
-
+.hardSkills-cards{
+    margin: 0px;
+    padding: 0px;
+}
 .pattern-card {
     margin: 10px;
-    width: 128px;
-    height: 128px;
+    width: 90px;
+    height: 90px;
     background-color: #222222;
+    border: solid 1px #222222;
     background-size: 80%;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 7px;
     cursor: pointer;
     transition: 1s;
+    margin-top: 0px;
 }
 .pattern-card:hover{
     border: solid 1px #e1ad01;

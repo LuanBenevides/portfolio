@@ -10,6 +10,9 @@
 .pattern-projects h3 {
     font-weight: 400;
 }
+.pattern-projects a {
+    text-decoration: none;
+}
 .projects-board {
     display: flex;
     align-items: center;
@@ -25,6 +28,7 @@
     margin: 10px;
     padding: 10px;
     background-color: #222222;
+    border: solid 1px #222222;
     border-radius: 7px;
     color: #fff;
     cursor: pointer;
@@ -73,7 +77,33 @@
 .pkdex{
     background-image: url("../../../public/images/pkdex.png");
 }
+.arrows-board {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0px auto;
+}
 
+.back{
+    width: 50px;
+    height: 50px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../../../public/images/duas-setas-para-a-esquerda.png');
+    cursor: pointer;
+}
+.next{
+    width: 50px;
+    height: 50px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../../../public/images/avanco-rapido.png');
+    cursor: pointer
+}
 .ocult {
     display: none;
 }
