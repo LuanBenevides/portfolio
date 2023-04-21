@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.2e10c19d.css",
-    "main.js": "/portfolio/static/js/main.92e4ca56.js",
-    "static/media/dev-flix.png": "/portfolio/static/media/dev-flix.a2b73818d318c4aa73a1.png",
-    "static/media/my-profile.png": "/portfolio/static/media/my-profile.40110bb2a205d5253adc.png",
-    "static/media/pkdex.png": "/portfolio/static/media/pkdex.3e1b664d396b4267ea4a.png",
-    "static/media/calculadora.png": "/portfolio/static/media/calculadora.aef879daa9a18e4430af.png",
-    "static/media/biscoito-da-sorte.png": "/portfolio/static/media/biscoito-da-sorte.9a36c2e0a64346df8f89.png",
-    "static/media/lista-de-tarefass.png": "/portfolio/static/media/lista-de-tarefass.582860ba88f690907c6f.png",
-    "static/media/cronometro.png": "/portfolio/static/media/cronometro.81662c3482c6b2f1c675.png",
-    "static/media/jogo-da-velha.png": "/portfolio/static/media/jogo-da-velha.cc2a56067f0277726a5c.png",
-    "static/media/postgre.png": "/portfolio/static/media/postgre.2e675658cedda3e07b93.png",
-    "index.html": "/portfolio/index.html",
-    "main.2e10c19d.css.map": "/portfolio/static/css/main.2e10c19d.css.map",
-    "main.92e4ca56.js.map": "/portfolio/static/js/main.92e4ca56.js.map"
+    "main.css": "/portifolio/static/css/main.7c7643af.css",
+    "main.js": "/portifolio/static/js/main.92e4ca56.js",
+    "static/media/dev-flix.png": "/portifolio/static/media/dev-flix.a2b73818d318c4aa73a1.png",
+    "static/media/my-profile.png": "/portifolio/static/media/my-profile.40110bb2a205d5253adc.png",
+    "static/media/pkdex.png": "/portifolio/static/media/pkdex.3e1b664d396b4267ea4a.png",
+    "static/media/calculadora.png": "/portifolio/static/media/calculadora.aef879daa9a18e4430af.png",
+    "static/media/biscoito-da-sorte.png": "/portifolio/static/media/biscoito-da-sorte.9a36c2e0a64346df8f89.png",
+    "static/media/lista-de-tarefass.png": "/portifolio/static/media/lista-de-tarefass.582860ba88f690907c6f.png",
+    "static/media/cronometro.png": "/portifolio/static/media/cronometro.81662c3482c6b2f1c675.png",
+    "static/media/jogo-da-velha.png": "/portifolio/static/media/jogo-da-velha.cc2a56067f0277726a5c.png",
+    "static/media/postgre.png": "/portifolio/static/media/postgre.2e675658cedda3e07b93.png",
+    "index.html": "/portifolio/index.html",
+    "main.7c7643af.css.map": "/portifolio/static/css/main.7c7643af.css.map",
+    "main.92e4ca56.js.map": "/portifolio/static/js/main.92e4ca56.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e10c19d.css",
+    "static/css/main.7c7643af.css",
     "static/js/main.92e4ca56.js"
   ]
 }
