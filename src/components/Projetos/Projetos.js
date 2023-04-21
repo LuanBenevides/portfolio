@@ -1,40 +1,19 @@
 import { useState } from 'react';
 import './projetos.css';
-
+import JvProjeto from '../JvProjeto/JvProjeto';
+import Bds from '../Bds/Bds';
+import Cronometro from '../Cronometro/Cronometro';
+import Calculadora from '../Calculadora/Calculadora';
 
 function Simple() {
     return(
         <div className='pattern-projects'>
             <h3>PROJETOS SIMPLES COM CONCEITOS BÁSICOS DE REACT.JS</h3>
             <article className='projects-board'>
-                <a href='https://luanbenevides.github.io/jogo-da-velha/' target='blank'>
-                    <section className='pattern-card-tec'>
-                        <h3>JOGO DA VELHA</h3>
-                        <p>Jogue e se divirta, clicando aqui</p>
-                        <div className='image-block-pattern jv'></div>
-                    </section>
-                </a>
-                <a href='https://luanbenevides.github.io/biscoito-da-sorte/' target='blank'>
-                    <section className='pattern-card-tec'>
-                        <h3>BISCOITO DA SORTE</h3>
-                        <p>Veja o que a sua sorte diz hoje</p>
-                        <div className='image-block-pattern bds'></div>
-                    </section>
-                </a>
-                <a href='https://luanbenevides.github.io/cronometro/' target='blank'>
-                    <section className='pattern-card-tec'>
-                        <h3>CRONÔMETRO</h3>
-                        <p>Marque o tempo das suas atividades!</p>
-                        <div className='image-block-pattern cron'></div>
-                    </section>
-                </a>
-                <a href="https://luanbenevides.github.io/react-calculator/" target='blank'>
-                    <section className='pattern-card-tec'>
-                        <h3>CALCULADORA</h3>
-                        <p>Faça contas na web, teste!</p>
-                        <div className='image-block-pattern calc'></div>
-                    </section>
-                </a>
+                <JvProjeto />
+                <Bds />
+                <Cronometro />
+                <Calculadora />
             </article>
         </div>
     );
