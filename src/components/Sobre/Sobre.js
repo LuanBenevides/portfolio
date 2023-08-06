@@ -16,15 +16,23 @@ export default function Sobre() {
             </hgroup>
             <hgroup>
                 <h2>ACADÊMICO</h2>
-                <p>Concluí o ensino médio integrado ao curso de Eletrotécnica em 2018, pela Escola Estadual de educação profissional Professor César Campelo. 
-                    Fiz um estágio na área de elétrica, como técnico na CarmeHil Soluções Industriais, ainda em 2018 - enquanto concluía o curso
-                    técnico, mas não me encantei pela área. Então iniciei os estudos em um cursinho para ingrassar à faculdade na área de tecnologia.
+                <p>Sou graduado em Análise e Desenvolvimento de Sistemas, pela Universidade Estácio de Sá, desde de dezembro de 2022. E, estudo o desenvolvimento de aplicações web, com Java e JavaScript, desde novembro de 2021.
                 </p>
-                <p>
-                    Após um ano e meio de estudos, ingressei à faculdade de Análise e Desenvolvimento de Sistemas, pela Universidade Estácio de Sá. Ingressei
-                    como bolsista integral pelo Programa Universidade para todos. Concluí o curso em dezembro de 2022. E, atualmente, estou me organizando para 
-                    ingressar na pós-graduação em Engenharia de Software ou em Desenvolvimento FullStack.
-                </p>
+                <p>Cronologicamente, aprendi as seguintes tecnologias:</p>
+                <ul>
+                    <li>Programação orientada a objetos com Java</li>
+                    <li>JDBC</li>
+                    <li>JPA e Hibernate</li>
+                    <li>JUnit</li>
+                    <li>JSF e primefaces</li>
+                    <li>Spring</li>
+                    <li>HTML 5</li>
+                    <li>CSS 3</li>
+                    <li>JavaScript</li>
+                    <li>React.Js</li>
+                    <li>JQuery</li>
+                    <li>BootStrap</li>
+                </ul>
             </hgroup>
             <hgroup>
                 <h2>PROFISSIONAL</h2>
